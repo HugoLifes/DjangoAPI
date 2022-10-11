@@ -20,7 +20,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"photos")
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
+STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -28,9 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7&aus32kpf=1e^j39j3!(#c&7ybge5o(e5!$#tf%x343ym3001'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://ambitious-meadow-c378c0203d2e446ca70178e2789779eb.azurewebsites.net']
 
 
 # Application definition
