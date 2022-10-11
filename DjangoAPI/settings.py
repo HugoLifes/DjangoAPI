@@ -29,9 +29,9 @@ STATIC_ROOT = 'static'
 SECRET_KEY = 'django-insecure-7&aus32kpf=1e^j39j3!(#c&7ybge5o(e5!$#tf%x343ym3001'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://ambitious-meadow-c378c0203d2e446ca70178e2789779eb.azurewebsites.net']
+ALLOWED_HOSTS = ['https://ambitious-meadow-c378c0203d2e446ca70178e2789779eb.azurewebsites.net','127.0.0.1']
 
 
 # Application definition
